@@ -9,7 +9,7 @@ const HeroesRouter = () => {
   return (
     <div>
       <Navbar />
-
+      {/* //Commit */}
       <div className='container'>
         <Routes>
           <Route path='/' element={<Navigate to='/marvel' />}></Route>
